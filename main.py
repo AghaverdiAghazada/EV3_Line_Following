@@ -67,7 +67,7 @@ while True:
         else:
             if current_position == "left":
                 robot.drive(DRIVE_SPEED, -TURN_RATE)
-            elif current_posiiton == "right":
+            elif current_position == "right":
                 robot.drive(DRIVE_SPEED, TURN_RATE)
         current_position = "straight"
 
